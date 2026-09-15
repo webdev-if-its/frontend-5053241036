@@ -1,4 +1,4 @@
-# frontend-nrp
+# frontend-5053241036
 
 Repo tugas mata kuliah **Frontend**, dibuat dari template [`webdev-if-its/frontend-template`](https://github.com/webdev-if-its/frontend-template). Ganti judul di atas jadi nama repo kalian sendiri (`frontend-nrp`, contoh: `frontend-5025201012`).
 
@@ -27,12 +27,12 @@ Kalau dosen memperbaiki sesuatu di pertemuan yang sudah dirilis (mis. ada bug di
 Bagian di bawah ini **isi bertahap** sesuai level yang sedang kalian kerjakan (lihat `pertemuan-XX/SOAL.md`) — heading-nya dicek otomatis, jangan diganti namanya.
 
 ## Struktur Project
-(tulis di sini)
+app.tsx adalah keseluruhan kode yang mengatur tampilan, mulai dari struktur, sampai logika tampilan ada di file ini. sedangkan main.tsx yang bertugas memanggil app.tsx untuk di taruh di index.html sehingga bisa dibuka di browser. 
 
 ## Identitas
-- Nama: (tulis di sini)
-- NRP: (tulis di sini)
-- Kelas: (tulis di sini)
+- Nama: Zahra Fidela Ramadhiani T.
+- NRP: 5053241036
+- Kelas: M (RPL)
 
 ## Commit vs Push
 (tulis di sini)
