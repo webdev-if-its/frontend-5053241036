@@ -41,7 +41,7 @@ Commit adalah kegiatan menyimpan perubahan file, dan Push adalah kegiatan mengup
 .jsx adalah file Javascript yang bisa ada JSX didalamnya, dan tidak akan pernah ada pengecekan tipe. sedangkan .tsx juga bisa ada JSX didalamnya, tapi dengan tambahan typescript, jadi pasti ada pengecekan tipe sebelum kode di run.
 
 ## Kenapa Union Type untuk Status
-(tulis di sini)
+union type di sini lebih baik karena membatasi nilai status hanya boleh salah satu dari tiga pilihan yang sudah ditentukan. sedangkan kalau memakai string bebas, typescript akan menerima nilai apa pun, sehingga nilai yang salah (meskipun typo) baru ke detect saat aplikasi dijalankan. tapi dengan union type, kesalahan seperti itu langsung bisa detect di awal saat masi menulis kodenya
 
 ## Refleksi
 (tulis di sini)
