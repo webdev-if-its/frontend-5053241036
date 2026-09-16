@@ -44,4 +44,4 @@ Commit adalah kegiatan menyimpan perubahan file, dan Push adalah kegiatan mengup
 union type di sini lebih baik karena membatasi nilai status hanya boleh salah satu dari tiga pilihan yang sudah ditentukan. sedangkan kalau memakai string bebas, typescript akan menerima nilai apa pun, sehingga nilai yang salah (meskipun typo) baru ke detect saat aplikasi dijalankan. tapi dengan union type, kesalahan seperti itu langsung bisa detect di awal saat masi menulis kodenya
 
 ## Refleksi
-(tulis di sini)
+di html biasa mungkin biasanya menulis struktur yang tetap yah, dimana semua isinya sudah diisi dari awal dan pasti. tapi dengan children, ternyata bisa di isi waktu nanti dipakai, jadi masih memberikan tempat kosong gitu, dan bisa dipakai berulang untuk konten yang berbeda. fragment juga, ternyata di JSX hanya bisa ada satu root element, sedangkan di html bisa banyak. dan fragment disini yang akhirnya jadi solusi buat menulis banyak element tanpa div
