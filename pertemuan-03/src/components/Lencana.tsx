@@ -3,6 +3,15 @@
 // "Prioritas" HANYA kalau prioritas bernilai true — kalau false, JANGAN
 // render elemen itu sama sekali (bukan cuma disembunyikan lewat CSS).
 // Lihat SOAL.md untuk kontrak lengkap.
-export function Lencana(props: any) {
-  return <div>TODO</div>
+type LencanaProps = {
+  prioritas : boolean
 }
+
+export function Lencana({prioritas} : LencanaProps) {
+  return (
+    <div>
+      {prioritas && <span>Prioritas</span>}
+    </div>
+  )
+}
+
