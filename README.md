@@ -38,7 +38,7 @@ app.tsx adalah keseluruhan kode yang mengatur tampilan, mulai dari struktur, sam
 Commit adalah kegiatan menyimpan perubahan file, dan Push adalah kegiatan mengupload perubahan tadi ke github. Contoh situasi : ketika sebuah tim teridiri dari 2 orang, satu mengerjakan fitur A, dan satunya lagi mengerjakan fitur B, dimana seharusnya fitur B ini bisa dikerjakan ketika fitur A selesai. Lalu orang fitur A sudah selesai mengerjakan, dia commit dengan message "fitur A done" tepat waktu. namun dia lupa belum push ke github, sehingga orang fitur B yang seharusnya sudah bisa langsung mengerjakan jadi terlambat karna dia belum bisa menerima hasil dari fitur A di repo mereka.
 
 ## JSX vs TSX
-(tulis di sini)
+.jsx adalah file Javascript yang bisa ada JSX didalamnya, dan tidak akan pernah ada pengecekan tipe. sedangkan .tsx juga bisa ada JSX didalamnya, tapi dengan tambahan typescript, jadi pasti ada pengecekan tipe sebelum kode di run.
 
 ## Kenapa Union Type untuk Status
 (tulis di sini)
