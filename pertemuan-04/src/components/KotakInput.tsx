@@ -6,7 +6,7 @@
 export function KotakInput(props: {onUbah : (nilai: string) => void}) {
   return (
     <input
-    on onChange={(e: React.ChangeEvent<HTMLInputElement>) => props.onUbah(e.target.value)}
+    onChange={(e: React.ChangeEvent<HTMLInputElement>) => props.onUbah(e.target.value)}
     />
   )
 }
