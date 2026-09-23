@@ -11,12 +11,12 @@
 import type { Tugas } from "../types"
 import { Button } from "./Button"
 
-type DaftarTugasLengkap = {
+type DaftarTugasLengkapProps = {
   tugas : Tugas[]
   onHapus : (id: string) => void
 }
 
-export function DaftarTugasLengkap({tugas, onHapus} : DaftarTugasLengkap) {
+export function DaftarTugasLengkap({tugas, onHapus} : DaftarTugasLengkapProps) {
   if (tugas.length === 0) {
     return <p>Tidak ada tugas</p>
   }
