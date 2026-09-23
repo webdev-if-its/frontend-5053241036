@@ -45,3 +45,6 @@ union type di sini lebih baik karena membatasi nilai status hanya boleh salah sa
 
 ## Refleksi
 di html biasa mungkin biasanya menulis struktur yang tetap yah, dimana semua isinya sudah diisi dari awal dan pasti. tapi dengan children, ternyata bisa di isi waktu nanti dipakai, jadi masih memberikan tempat kosong gitu, dan bisa dipakai berulang untuk konten yang berbeda. fragment juga, ternyata di JSX hanya bisa ada satu root element, sedangkan di html bisa banyak. dan fragment disini yang akhirnya jadi solusi buat menulis banyak element tanpa div
+
+## Refleksi Pertemuan 3
+di css biasa, elemen yang disembunyiin tetap ada di DOM. di JSX, elemen yang kondisinya salah beneran gak dirender sama sekali. jadi lebih ke "elemen ini perlu ada atau tidak". Tailwind juga bikin styling bisa stick langsung di logic komponen, gak perlu file css terpisah.
