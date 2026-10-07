@@ -9,3 +9,4 @@ type SapaanProps = {
 export function Sapaan({nama = 'Tamu'} : SapaanProps) {
   return <p>Halo, {nama}!</p>
 }
+
