@@ -48,3 +48,6 @@ di html biasa mungkin biasanya menulis struktur yang tetap yah, dimana semua isi
 
 ## Refleksi Pertemuan 3
 di css biasa, elemen yang disembunyiin tetap ada di DOM. di JSX, elemen yang kondisinya salah beneran gak dirender sama sekali. jadi lebih ke "elemen ini perlu ada atau tidak". Tailwind juga bikin styling bisa stick langsung di logic komponen, gak perlu file css terpisah.
+
+## Refleksi Pertemuan 4
+variabel biasa kalau diubah gak bikin tampilan ikut berubah, tapi kalau state tiap diubah lewat setternya bakal langsung bikin komponen render ulang, jadi tampilannya ikut ke update. terus e.target.value harus diubah ke number dulu karena isinya selalu string
